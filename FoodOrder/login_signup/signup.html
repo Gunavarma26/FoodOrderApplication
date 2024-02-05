@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="signup">
+        <div class="loginimgdiv">
+            <img src="../assert/log.jpg" class="loginimg" alt="img">
+        </div>
+        <form action="signup.php" method="post" enctype="multipart/form-data" class="logincontainer">
+
+            <div class="signupfrom">
+                <h2 id="Signup">Signup</h2>
+                <div class="inbox">
+                    <input type="text" name="UNAME" placeholder=" Create User Name " id="mail">
+
+                </div>
+
+                <div class="inbox">
+                    <input type="password" name="UPASS" placeholder=" Create Password" id="pass">
+                    <span class="icon" onclick="password()">
+                        <i class="fa fa-eye" aria-hidden="true" id="open"></i>
+                        <i class="fa fa-eye-slash" aria-hidden="true" id="close"></i>
+                    </span>
+                </div>
+
+                <button type="submit" class="btn">Signup</button>
+                <h3>Already have an account? <a href="./index.php" style="color: red">Login</a></h3>
+            </div>
+        </form>
+    </div>
+    <script src="../script/signup.js"></script>
+</body>
+
+</html>

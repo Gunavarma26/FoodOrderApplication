@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#login {
+    text-align: center;
+    color: black;
+
+}
+
+.logotitledel{
+    font-size: 22px;
+    color: red;
+}
+
+body {
+    background-color: rgb(219, 213, 213);
+}
+
+.continre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.inbox {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.inbox input {
+    background-color: white;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.inbox input:hover {
+    border: 2px solid skyblue;
+}
+
+
+::placeholder {
+    color: black;
+}
+
+/* .icon {
+    position: relative;
+    left: 240px;
+    bottom: 35px;
+    cursor: pointer;
+    color: rgb(85, 84, 84);
+} */
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.loginimgdiv {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid #ddd;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(246, 246, 249);
+    border-right: none;
+}
+
+.loginimg{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.logform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.logincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(246, 246, 249);
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(67, 167, 207);
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid skyblue;
+}
+
+#open {
+    display: none;
+}
+
+
+.error {
+    color: red;
+    font-size: 555;
+}
+

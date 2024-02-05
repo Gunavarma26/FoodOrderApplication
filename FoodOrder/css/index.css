@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.logotxt {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 555;
+}
+
+.nav-item>a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 555;
+}
+
+.nav-item>a:hover {
+    color: #fc8019 !important;
+}
+
+.active {
+    color: #fc8019 !important;
+    text-decoration: underline;
+}
+
+.cart_continer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    margin: 50px;
+    justify-content: center;
+    padding: 40px 10px 20px 40px;
+
+}
+
+#cartcont {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    ;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cartimg {
+    border-radius: 10px;
+}
+
+.cartbtn {
+    width: 200px !important;
+    color: black !important;
+}
+
+.addcontiner {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addfrom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+
+.addinput {
+    background-color: white;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    
+}
+
+.addinput:hover {
+    border: 2px solid skyblue;
+}
+
+.addinputbtn{
+    background-color: rgb(0, 119, 255);
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.addinputbtn:hover {
+    border: 2px solid skyblue;
+    background-color: rgb(6, 144, 199);
+}
+
+::placeholder {
+    color: rgb(49, 48, 48);
+}
